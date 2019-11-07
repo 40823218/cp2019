@@ -98,7 +98,7 @@ Title: 2019 Fall CP 課程
 Date: 2019-11-07 11:00
 Category: Misc
 Tags: 2019FallCP
-Slug: 2019-Fall-Win10-1903
+Slug: 20191108
 Author: 40823218
 ---
 
