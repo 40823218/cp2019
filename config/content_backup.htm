@@ -1,4 +1,4 @@
-<h1>about</h1>
+<h1>yen is so handsome</h1>
 <p><canvas height="200" id="canvas" width="300"></canvas></p>
 <script src="/downloads/dart_ex/roc_flag/roc_flag.js"></script>
 <h4>亂數分組:</h4>
@@ -67,7 +67,46 @@ main(){
 <p><a href="https://gist.github.com/40823218/cb52d0acfc93fd35c46ccddf277feb0d">https://gist.github.com/40823218/cb52d0acfc93fd35c46ccddf277feb0d</a></p>
 <p><iframe height="600" src="https://dartpad.dartlang.org/?id=cb52d0acfc93fd35c46ccddf277feb0d" width="800"></iframe></p>
 <p><img alt="" height="300" src="/images/EXCEL_ut4pat3fND.png" width="500"/></p>
-<h1>dartpad</h1>
+<h1>w17</h1>
+<p></p>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823218&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823218&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823218&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('lbtokg')">磅轉公斤</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('lbtokg_html')">重量轉換</button> <button onclick="getHtmlDart('roc_flag')">國旗</button></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823218&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
+<p>請輸入所要轉換的重量以數字加上 KG 或 LB:<br/><input id="weight" max="30" min="0" type="text" value="10KG"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<p>
+<script src="https://40823218.github.io/cp2019/downloads/dart_ex/lbtokg_html/weight_change.js"></script>
+</p><h1>dartpad</h1>
 <p></p>
 <script>
 function getDart(dirname){
@@ -104,4 +143,4 @@ document.getElementById("iframe").height = 600 ;
 <p><button onclick="getFlutter('flutter1')">Flutter1</button> <button onclick="getFlutter('flutter2')">Flutter2</button> <button onclick="getFlutter('flutter3')">Flutter3</button></p>
 <p><!-- 內建放入的 Dart 原始碼 --></p>
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823218&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
+<p>w<iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823218&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
