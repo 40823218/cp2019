@@ -56,7 +56,7 @@
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[40823218](./../blog/index.html)
 
 
 </t>
@@ -294,7 +294,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200109012640.1">## 學習心得
 
-這堂課讓我了解到了程式的重要性以及多樣性，技職體系出來的做個砲台就覺得說"歐~我好厲害喔"，我之前也是如此，學完這門課後要我做砲台"我才不要類"。
+這堂課讓我了解到了程式的重要性以及多樣性，技職體系出來的做個砲台就覺得說"歐~我好厲害喔"，我之前也是如此，學完這門課後要我做砲台"我才不要勒"。
 						
 </t>
 <t tx="leo.20200109012842.1">&lt;section data-markdown&gt;
