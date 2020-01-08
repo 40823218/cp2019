@@ -74,13 +74,21 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section>
 <section data-markdown>
     <script type="text/template">
+##亂數分組
+
+<p>學員名單 URL: <input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/><br/> 每組人數: <input id="grpNum" size="3" type="text" value="10"/><br/> <input id="submit" type="submit" value="開始分組"/><br/> <textarea cols="80" id="output" rows="10"></textarea></p>
+<script src="./../downloads/dart_ex/ramdon/ramdon.js"></script>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+## 溫度轉換
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823218&gh_repo=cp2019&gh_path=downloads/dart_ex/fortemp&theme=dark" width="800" height="550"></iframe>
     </script>
 </section>
 
@@ -90,32 +98,9 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## 國旗繪製
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823218&gh_repo=cp2019&gh_path=downloads/dart_ex/roc_flag&theme=dark" width="800" height="550"></iframe>
     </script>
 </section>
 
@@ -124,11 +109,10 @@ make.start()
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+## 學習心得
 
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+這堂課讓我了解到了程式的重要性以及多樣性，技職體系出來的做個砲台就覺得說"歐~我好厲害喔"，我之前也是如此，學完這門課後要我做砲台"我才不要類"。
+						
     </script>
 </section>
 
